@@ -1,4 +1,4 @@
 Chatbox
 =======
 
-Chatbox avec CakePHP.
+Chatbox en ajax avec CakePHP.
