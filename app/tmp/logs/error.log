@@ -1,0 +1,29 @@
+2013-12-12 14:35:20 Error: [MissingActionException] Action UserController::logindfg() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'logindfg',
+)
+Request URL: /user/logindfg
+Stack Trace:
+#0 C:\wamp\www\cakephp_my_webs\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp_my_webs\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp_my_webs\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-12 13:35:28 Error: [MissingControllerException] Controller class UserdfgdfgdfgController could not be found.
+Exception Attributes: array (
+  'class' => 'UserdfgdfgdfgController',
+  'plugin' => NULL,
+)
+Request URL: /userdfgdfgdfg
+Stack Trace:
+#0 C:\wamp\www\cakephp_my_webs\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-16 23:14:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.10.2.min.map
+Stack Trace:
+#0 C:\wamp\www\cakephp_my_webs\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
